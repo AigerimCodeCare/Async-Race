@@ -1,0 +1,42 @@
+.winnerHeader {
+  display: flex;
+}
+
+.winnerHeader div:not(:first-child) {
+  margin: 5px 26px;
+
+}
+
+.winner {
+  display: flex;
+}
+
+.winner div {
+  margin: 5px 20px;
+  height: 44px;
+}
+
+.name {
+  margin: 5px 5px;
+  width: 140px;
+}
+
+.headerName {
+  width: 115px;
+}
+
+.headerWins {
+  cursor: pointer;
+}
+
+.headerTime {
+  cursor: pointer;
+}
+
+.wins {
+  width: 40px;
+}
+
+.infoWrapper {
+  display: flex;
+}

@@ -1,0 +1,59 @@
+.car__header {
+  margin-top: 10px;
+}
+
+.items__wrapper {
+  position: relative;
+}
+
+.road__wrapper {
+  position: relative;
+  width: 100%;
+
+  border-bottom: 3px dashed black;
+}
+
+.car {
+  width: calc(100% - 110px);
+
+}
+
+.road__wrapper img {
+  position: absolute;
+  right: 120px;
+  bottom: 25px;
+  width: 50px;
+  transform: rotate(35deg) scale(0.9);
+}
+
+.start__btn button {
+  margin: 5px;
+  padding: 3px 5px;
+  border: 1px solid grey;
+}
+
+.pageBtn * {
+  margin: 20px 15px 40px 15px;
+}
+
+.carImg {
+  position: relative;
+}
+
+.showWinner {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 194, 21);
+  z-index: 5;
+  font-size: 18px;
+  align-items: center;
+}
+
+.showWinner span {
+  margin: 5px;
+}

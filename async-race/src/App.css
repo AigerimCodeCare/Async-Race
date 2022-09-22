@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    width: 94%;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+}
